@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+body{
+  background: rgb(197, 194, 194);
+  overflow: hidden;
+}
+.container{
+  max-width: 600px;
+  padding: 0 20px;
+  margin: 170px auto;
+}
+.wrapper{
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
+}
+.wrapper .title{
+  height: 80px;
+  background-image: url(thirdone.png);
+  border-radius: 5px 5px 0 0;
+  opacity: 0.9;
+  color: whitesmoke;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form{
+  padding: 30px 20px 20px 25px;
+}
+.wrapper form .row{
+  height: 45px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.wrapper form .row label{
+    margin-left: 20px;
+}
+.wrapper form .row input{
+    width:65%;
+    padding: 1px 1px;
+    margin-left: 30px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    
+} */
+
+form .row input::placeholder{
+  color: darkslategrey;
+  
+}
+.wrapper form .pass{
+  text-align: right;
+}
+.wrapper form .pass a{
+  margin-right: 40px;
+  color: darkslategrey;
+  font-size: 12px;
+  text-decoration: none;
+}
+.wrapper form .pass a:hover{
+  text-decoration: underline;
+}
+.wrapper form .button input{
+ width: 120px;
+ height: 35px;
+ margin-left: 110px;
+ position: absolute;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 500;
+  text-align: center;
+  background: rgb(17, 122, 17);
+  border: 1px solid #16a085;
+  cursor: pointer;
+  border-radius: 30px;
+}
+form .button input:hover{
+  background: #12876f;
+}
+.wrapper form .check{
+  color: darkslategray;
+  text-align: left;
+  margin: -18px 0 20px 120px;
+  font-size: 12px;
+}
